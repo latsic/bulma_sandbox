@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Bulma Sandbox</title>
+</head>
+<body>
+
+    <div class="page">
+    
+    <div class="bulma-page">
+
+        <header class="intro">
+            <p class="is-size-4 title">
+                <strong>Bulma</strong>
+            </p>
+            <p class="is-size-5">
+                A sandbox document showcasing the <strong>bulma</strong> css framework.
+                Icons used in this document originate from the <strong>font-awesome</strong>
+                library.
+            </p>
+        </header>
+
+        <!-- Headings -->
+        <div class="block">
+
+            <p class="title">Headings</p>
+            <p class="content">
+                All headings have the same size with Bulma.
+                Use classes like <code>title</code> or <code>subtitle</code> to
+                influence the font and size. Use classes like <code>is-1</code>, 
+                <code>is-2</code> to influence the size only.
+            </p>
+
+            <div class="examples">
+
+                <h1 class="title">Hello World</h1>
+                <h2 class="subtitle">Hello World</h2>
+                <h3 class="title is-1">Hello World</h3>
+                <h4 class="title is-2">Hello World</h4>
+                <h5 class="title is-3">Hello World</h5>
+                <h6 class="title is-4">Hello World</h6>
+            </div>
+        </div>
+        
+        <div class="block">
+
+            <p class="title">Content</p>
+            <p class="content">
+                Default-Paddings get removed by Bulma.
+                Add classes like <code>content</code> to change that.
+                You can use classes like <code>is-small</code>,
+                <code>is-large</code> etc. as well. If ou don't use a class
+                you get a 'normal' sized font.
+            </p>
+
+            <div class="examples">
+                <p class="content is-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eaque!</p>
+                <p class="content is-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eaque!</p>
+                <p class="content is-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eaque!</p>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Buttons</p>
+            <p class="subtitle">Button-Styles</p>
+            <p class="content">
+                Classes wich can be used are among others <code>is-white</code>,
+                <code>is-dark</code>, <code>is-link</code>, etc.
+            </p>
+
+            <div class="examples" id="myButtons">
+                <button class="button">Button</button>
+                <button class="button is-white">Button</button>
+                <button class="button is-light">Button</button>
+                <button class="button is-dark">Button</button>
+                <button class="button is-black">Button</button>
+                <button class="button is-link">Button</button>
+            </div>
+        </div>
+        <div class="block">
+
+            <p class="subtitle">Button-Types</p>
+            <p class="content">
+                Here instead of a <code>Button</code>-Element an
+                <code>anchor</code>-Element is used. To set the type
+                of a button, there classes like <code>is-primary</code>,
+                <code>is-info</code>, etc.
+            </p>
+
+            <div class="examples">
+                <a href="" class="button is-primary">Primary</a>
+                <a href="" class="button is-info">Info</a>
+                <a href="" class="button is-success">Success</a>
+                <a href="" class="button is-warning">Warning</a>
+                <a href="" class="button is-danger">Danger</a>
+            </div>
+        </div>
+        <div class="block">
+
+            <p class="subtitle">Button-Sizes</p>
+            <p class="content">
+                The size of a button can be changed with classes
+                like <code>is-small</code>, <code>is-large</code>.
+            </p>
+
+            <div class="examples">
+                <a href="" class="button is-primary is-small">Primary</a>
+                <a href="" class="button is-info is-medium">Info</a>
+                <a href="" class="button is-success is-large">Success</a>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="subtitle">Other button styles</p>
+            <p class="content">
+                <code>is-oultined</code> and <code>is-inverted</code> is
+                used here.
+            </p>
+
+            <div class="examples">
+                <a href="" class="button is-primary is-outlined">Primary</a>
+                <a href="" class="button is-info inverted">Info</a>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="subtitle">Button states</p>
+            <p class="content">
+                <code>is-hovered</code> and <code>is-focused</code> are
+                some of the states used here. The state <code>disabled</code>
+                is special insofar it does not start with 'is'. The loading
+                button does not display its text.
+            </p>
+
+            <div class="examples">
+                <a href="" class="button is-hovered">is-hovered</a>
+                <a href="" class="button is-focused">is-focused</a>
+                <a href="" class="button is-active">is-active</a>
+                <a href="" class="button is-loading">is-loading</a>
+                <a href="" class="button disabled">disabled</a>
+            </div>
+        </div>        
+
+        <div class="block">
+
+            <p class="title">Images</p>
+            <p class="content">
+                
+            </p>
+
+            <div class="examples">
+                <figure class="image is-128x128">
+                    <img src="images/clock.jpg">
+                </figure>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Box</p>
+            <p class="content">
+                A <code>box</code> is basically a container with some additional styling
+                attributes. For example a radius and a shadow.
+            </p>
+
+            <div class="examples">
+                <div class="box">
+                    <h1 class="title">Hello Box</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam rem enim.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Notifications</p>
+            <p class="content">
+               A <code>notifcation</code> has the purpose of alerting the user to
+               something. You can add a <code>button</code> to it, in this example a delete
+               button was added which adds a little delete button to the top-right
+               of the notification box. The notifications can be styled with <code>is-warning</code>, etc.
+            </p>
+
+            <div class="examples">
+                <div class="notification">
+                    <button class="delete"></button>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam rem enim.
+                </div>
+                <div class="notification is-warning">
+                    <button class="delete"></button>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam rem enim.
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Tags</p>
+            <p class="content">
+                A <code>tag</code> is a tag-label. It has some default styling
+                but can be customized in various ways.
+            </p>
+
+            <div class="examples">
+                <span class="tag">Normal</span>
+                <span class="tag is-black is-rounded">is-black is rounded</span>
+                <span class="tag is-light">is-light</span>
+                <span class="tag is-primary is-large">is-primary is large</span>
+                <span class="tagis-large">with delete button
+                    <button class="delete"></button>
+                </span>
+            </div>
+        </div>        
+
+        <div class="block">
+
+            <p class="title">Messages</p>
+            <p class="content">
+                To emphasize the <code>message</code> class can be used. there
+                are related classes like <code>message-header</code> and
+                <code>message-body</code> which can be used to structure the message.
+            </p>
+
+            <div class="examples">
+
+              
+                <article class="message is-info">
+                    <div class="message-header">
+                        <p>About Us</p>
+                    </div>
+                    <div class="message-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis eum nemo reiciendis, fuga fugit. Hic quasi maiores recusandae.
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <div class="block">
+
+            <p class="title">Navbar</p>
+            <p class="content">
+               This is a how a navigation bar with bulma can look like.
+               To toggle the hamburger there is seom javascript necessary. At
+               the moment the only breakpoint for the hamburger to appear/disappear
+               looks to be at 1024px, which is a let down.
+            </p>
+
+            <div class="examples">
+                <nav class="navbar is-transparent">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://bulma.io">
+                            <img src="https://bulma.io/images/bulma-logo.png" alt="" width="112" height="28">
+                        </a>
+                        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                        
+                    <div id="navbarExampleTransparentExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href="https://bulma.io/">Home</a>
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link" href="#">Docs</a>
+                                <div class="navbar-dropdown is-boxed">
+                                    <a class="navbar-item" href="#">Overview</a>
+                                    <a class="navbar-item" href="#">Modifiers</a>
+                                    <a class="navbar-item" href="#">Columns</a>
+                                    <a class="navbar-item" href="#">Layout</a>
+                                    <a class="navbar-item" href="#">Form</a>
+                                    <hr class="navbar-divider">
+                                    <a class="navbar-item" href="#">Elements</a>
+                                    <a class="navbar-item is-active" href="#">Components</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="navbar-end">
+                            <div class="navbar-item">
+                                <div class="field is-grouped">
+                                    <p class="control">
+                                        <a 
+                                            class="bd-tw-button button"
+                                            data-social-network="Twitter"
+                                            data-social-action="tweet"
+                                            data-social-target="http://localhost:4000"
+                                            target="_blank"
+                                            href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+                                            <span class="icon">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                            <span>Tweet</span>
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-primary" href="#">
+                                        <span class="icon">
+                                            <i class="fas fa-download"></i>
+                                        </span>
+                                        <span>Download</span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Sidebar</p>
+            <p class="content">
+                A side menu with nested links. These are probably not
+                really usable for any mobile app.
+            </p>
+
+            <div class="examples">
+                <div class="asideContainer">
+                    <aside class="menu">
+                        <p class="menu-label">
+                            Label 1
+                        </p>
+                        <ul class="menu-list">
+                            <li><a href="#">Link 1A</a></li>
+                            <li><a href="#">Link 1B</a></li>
+                        </ul>
+                        <p class="menu-label">
+                            Label 2
+                        </p>
+                        <ul class="menu-list">
+                            <li>
+                                <a class="is-active" href="#">Test</a>
+                                <ul>
+                                    <li><a href="#">Link 2AA</a></li>
+                                    <li><a href="#">Link 2BB</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li><a href="#">Link 2B</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Hero</p>
+            <p class="content">
+               A hero is kind of a large web banner. It
+               often contains an image and text that should
+               be the main focus of a page, section, etc.
+            </p>
+
+            <div class="examples">
+                <section class="hero is-info">
+                    <div class="hero-body">
+                        <div>
+                            <h1 class="title">Hero Title</h1>
+                            <h2 class="subtitle">Hero Subtitle</h2>
+                        </div>
+                    </div>
+                </section>
+                <section class="hero is-danger">
+                    <div class="hero-body">
+                        <div>
+                            <h1 class="title">Hero Title</h1>
+                            <h2 class="subtitle">Hero Subtitle</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Hero</p>
+            <p class="content">
+               A card is someting like a panel. It consists of a header,
+               some content and a footer.
+            </p>
+            <div class="examples">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            Some card title.
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quas eum magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, quasi! Aliquam ratione magnam velit cumque quo libero iure totam cupiditate exercitationem earum.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a class="card-footer-item" href="#">
+                            <i class="fab fa-twitter"></i>
+                            &nbsp;Twitter
+                        </a>
+                        <a class="card-footer-item" href="#">
+                            <i class="fab fa-facebook"></i>
+                            &nbsp;Share on facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="block">
+
+            <p class="title">Pagination</p>
+            <p class="content">
+                Pagination to navigate through loads of content
+            </p>
+
+            <div class="examples">
+
+                <nav class="pagination is-rounded" role="navigation">
+                    <a
+                        href=""
+                        class="pagination-previous" disabled>
+                        Previous Page
+                    </a>
+                    <a
+                        href=""
+                        class="pagination-next">
+                        Next Page
+                    </a>
+                    <ul class="pagination-list">
+                        <li><a href="" class="pagination-link is-current">1</a></li>
+                        <li><a href="" class="pagination-link">2</a></li>
+                        <li><a href="" class="pagination-link">3</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Level</p>
+            <p class="content">
+                A multipurpose horizontal level. Can be used vor all
+                kind of things.
+            </p>
+
+            <div class="examples">
+                <nav class="level">
+                    <div class="level-left">
+                        <p class="level-item"><a>1</a></p>
+                        <p class="level-item"><a>2</a></p>
+                        <p class="level-item"><a class="button is-primary">3</a></p>          
+                    </div>
+                    <div class="level-right">
+                        <p class="level-item"><a class="button is-info">r</a></p>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Forms</p>
+            <p class="content">
+                A very simple form.
+            </p>
+
+            <div class="examples">
+                <form>
+                    <div class="field">
+                        <label for="" class="label">SomeName</label>
+                        <input type="text" class="input is-success" placeholder="Enter a name">
+                    </div>
+                    <div class="field">
+                        <label for="" class="label">Package</label>
+                        <p class="control">
+                            <span class="select">
+                                <select name="" id="">
+                                    <option value="">Simple</option>
+                                    <option value="">Standard</option>
+                                    <option>Secure</option>
+                                </select>
+                            </span>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Field</p>
+            <p class="content">
+                Attach <code>controls</code> with the <code>field</code> tag.
+            </p>
+
+            <div class="examples">
+                <div class="field has-addons">
+                    <p class="control">
+                        <input type="text" class="input" placeholder="Enter searchterm">
+                    </p>
+                    <p class="control">
+                        <a href="" class="button is-info">Search</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Tables</p>
+            <p class="content">
+               Classes used here to customize the tables are:
+               <code>is-narow</code><code>is-selected</code>
+               <code>is-striped</code><code>is-bordered</code>.
+            </p>
+
+            <div class="examples">
+               <table class="table is-narrow">
+                   <thead>
+                       <tr>
+                           <th>Name</th>
+                           <th>Email</th>
+                           <th>Phone</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                            <td>Bunk bunk</td>
+                            <td>bunk@gmail.com</td>
+                            <td>555-Bunk</td>
+                       </tr>
+                       <tr class="is-selected">
+                            <td>Freeman Freeman</td>
+                            <td>Freeman.Freeman@gmail.com</td>
+                            <td>555-Freeman</td>
+                       </tr>
+                       <tr>
+                            <td>Kima Kima</td>
+                            <td>Kima@gmail.com</td>
+                            <td>555-Kima-877</td>
+                       </tr>
+                   </tbody>
+               </table>
+               <table class="table is-striped is-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                             <td>Bunk bunk</td>
+                             <td>bunk@gmail.com</td>
+                             <td>555-Bunk</td>
+                        </tr>
+                        <tr>
+                             <td>Freeman Freeman</td>
+                             <td>Freeman.Freeman@gmail.com</td>
+                             <td>555-Freeman</td>
+                        </tr>
+                        <tr>
+                             <td>Kima Kima</td>
+                             <td>Kima@gmail.com</td>
+                             <td>555-Kima-877</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="block">
+
+            <p class="title">Grid</p>
+            <p class="content">
+                The bulma grid system. There are 12 columns. Classes
+                which can be used are <code>is-2</code>, <code>is-3</code>, etc.
+                or <code>is-half</code>, <code>is-third</code>, etc.
+            </p>
+
+            <div class="examples">
+                <div>
+                    <div class="columns">
+                        <div class="column is-2">
+                            <p class="notification">First Column is-2</p>
+                        </div>
+                        <div class="column is-4">
+                            <p class="notification">Second Column is-4</p>
+                        </div>
+                        <div class="column is-3">
+                            <p class="notification">Third Column is-3</p>
+                        </div>
+                        <div class="column is-3">
+                            <p class="notification">Fourth Column is-3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="examples">
+                <div>
+                    <div class="columns">
+                        <div class="column is-half">
+                            <p class="notification">First Column is-half</p>
+                        </div>
+                        <div class="column">
+                            <p class="notification">Second Column</p>
+                        </div>
+                        <div class="column">
+                            <p class="notification">Third Column</p>
+                        </div>
+                        <div class="column">
+                                <p class="notification">Fourth Column</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+    </div>
+
+</body>
+</html>

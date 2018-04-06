@@ -1,0 +1,50 @@
+{
+  "name": "bulma_sandbox",
+  "version": "0.0.1",
+  "description": "website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scssC-watch": "node-sass --output-style compressed --watch src/scss/ -o src/css/",
+    "scss-watch": "node-sass --watch src/scss/ -o src/css/",
+    "scss": "node-sass src/scss/ -o src/css/",
+    "scssC": "node-sass --output-style compressed src/scss/ -o src/css/",
+    "analyzeProd": "webpack --config webpack.config.dev.js --profile --json > statsProd.json --mode=production",
+    "analyzeDev": "webpack --config webpack.config.dev.js --profile --json > statsProd.json --mode=development",
+    "buildDev": "webpack --config webpack.config.dev.js --mode=development",
+    "buildProd": "webpack --config webpack.config.prod.js --mode=production",
+    "watch": "webpack --config webpack.config.dev.js --watch --mode=development",
+    "startDevServer": "webpack-dev-server --config webpack.config.dev.js --openPage /bulma_sandbox.html --hotOnly --no-color --mode=development"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "latsic",
+  "license": "Unlicense",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.9",
+    "bulma": "^0.6.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "sideEffects": [
+    "*.css",
+    "*.scss",
+    "*.jpg",
+    "*.png"
+  ]
+}

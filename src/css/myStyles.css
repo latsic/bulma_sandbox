@@ -1,0 +1,33 @@
+.page{
+    display: flex;
+    justify-content: center;
+    
+}
+.bulma-page{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    
+    padding: 1rem;
+    outline: 1px solid #eeaa77dd;
+}
+
+.examples{
+    margin: 1rem;
+    padding: 0.1rem;
+    outline: 3px solid #eeaa7744;
+}
+
+.asideContainer{
+    width: 20%;
+}
+
+.block{
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    outline: 2px solid #eeaa7799;
+}
+
+.intro{
+    margin-bottom: 3rem;
+}
