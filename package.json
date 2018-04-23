@@ -14,7 +14,7 @@
     "buildDev": "webpack --config webpack.config.dev.js --mode=development",
     "buildProd": "webpack --config webpack.config.prod.js --mode=production",
     "watch": "webpack --config webpack.config.dev.js --watch --mode=development",
-    "startDevServer": "webpack-dev-server --config webpack.config.dev.js --openPage /bulma_sandbox.html --hotOnly --no-color --mode=development"
+    "startDevServer": "webpack-dev-server --config webpack.config.dev.js --openPage /bulma_sandbox.html --inline --watchContentBase --no-color --mode=development"
   },
   "keywords": [
     "website"

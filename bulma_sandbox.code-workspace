@@ -6,5 +6,8 @@
 		{
 			"path": "C:\\Data\\webdev\\projects\\website_learnwebdev"
 		}
-	]
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }
